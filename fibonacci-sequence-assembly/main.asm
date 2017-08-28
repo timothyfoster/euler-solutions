@@ -3,6 +3,12 @@
 ; This program calculates numbers of the Fibonacci series.
 ; It asks the user for the number of numbers to display and
 ; Then outputs its calculations.
+;
+; *****
+; Compiled using Borland's TASM & TLINK - not tested on FASM
+; DOSBOX or a 32bit VM should be used to compile and run the
+; program.
+; To compile run: "TASM main" followed by "TLINK main"
 ; ------------------------------------------------------------
 
 .model small
