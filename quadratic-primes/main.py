@@ -1,12 +1,13 @@
 # This program will find the quadratic expression n^2 + an + b which produces
-# The maximum number of primes for consecutive values of n for |a| and |b| < 1000
+# the maximum number of primes for consecutive values of n for |a| and |b| < 1000
+# Reference: https://projecteuler.net/problem=27
 
 import math
 
 def main():
     maxN = 0; maxA = 0; maxB = 0
-    for a in range(-20000, 20000):
-        for b in range(-20000, 20000):
+    for a in range(-1000, 1000):
+        for b in range(-1000, 1000):
             n = 0
             while (isPrime(n**2 + a*n + b)):
                 n += 1
