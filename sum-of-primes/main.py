@@ -1,4 +1,5 @@
 # This program will find the sum of all the prime numbers up to a given number
+# Reference: https://projecteuler.net/problem=10
 
 import math
 

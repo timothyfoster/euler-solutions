@@ -1,5 +1,6 @@
 # This program will find the 13 adjacent digits in series.txt which result in
 # the largest possible product
+# Reference: https://projecteuler.net/problem=8
 
 from prettytable import PrettyTable
 
